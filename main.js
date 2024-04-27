@@ -5,7 +5,6 @@ let bgw;
 function ihatehowelectronworks() {
     tempw = new BrowserWindow({
         autoHideMenuBar: true,
-        title: "bgo or something",
         icon: path.join(__dirname, 'assets/favicon.ico'),
         webPreferences: {
             nodeIntegration: false,
